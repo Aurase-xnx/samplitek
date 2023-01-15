@@ -30,7 +30,7 @@ public class SamplePersistenceAdapter implements SampleAccess {
     public Sample createSample(Sample sa){
         SampleJPA sampletocreate = sampleMapper.mapToJPA(sa);
         sampleRepository.save(sampletocreate);
-        return sa;git
+        return sa;
     }
 
     @Override
