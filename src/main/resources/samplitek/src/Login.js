@@ -10,7 +10,7 @@ export default function Login() {
         <input type="password" placeholder="Password"></input>
         <button>Log in</button>
       </div>
-      <a href="./Signin">You don't have an account yet ?</a>
+      <a className="linkLogSig" href="./Signin">You don't have an account yet ?</a>
     </div>
   )
 }

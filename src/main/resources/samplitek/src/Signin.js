@@ -4,13 +4,13 @@ export default function Signin() {
   return (
     <div>
       <div className="logSigSec">
-        <p>Signin Here</p>
+        <h2>Signup Here</h2>
         <input type="text" placeholder="Username"></input>
         <input type="password" placeholder="Password"></input>
         <input type="password" placeholder="Confirm Password"></input>
-        <button>Sign in</button>
+        <button>Sign up</button>
       </div>
-      <a href="./Login">Do you already have an account ?</a>
+      <a className="linkLogSig" href="./Login">Do you already have an account ?</a>
     </div>
   )
 }

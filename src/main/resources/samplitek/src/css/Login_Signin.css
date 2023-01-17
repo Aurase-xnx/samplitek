@@ -1,4 +1,15 @@
 .logSigSec{
- padding-left: 10%;
  padding-top: 5%;
+ padding-bottom: 1%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+}
+
+.linkLogSig{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
 }

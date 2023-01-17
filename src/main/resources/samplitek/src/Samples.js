@@ -26,7 +26,7 @@ function Samples() {
   },[])
   return (
     <div className="Samples">
-      <h1>Samples here</h1>
+      <h1>Samples</h1>
         <div>
           <p>Add a sample here :</p>
           <input type="text" placeholder="Sample name"></input>
